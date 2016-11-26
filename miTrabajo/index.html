@@ -28,23 +28,24 @@
 		</nav>
 		
 		<article>
-			<h1>Estructura básica</h1>
-			<br>El primer paso es crear un documento de texto vacío, y ahí pondremos nuestro código. Podemos utilizar cualquier editor de texto,
-				pero con el bloc de notas nos sería suficiente.
-				<br><br>Para poder abrir nuestro documento en un navegador necesitamos guardarlo en formato <b>.html</b>, para ello vamos a <b>archivo-guardar_como</b> y en nombre ponemos:<b> nombre_archivo.html</b></p>
-		
+			
 				<section>
+					<h2>Estructura básica</h2>
+						<br><p>El primer paso es crear un documento de texto vacío, y ahí pondremos nuestro código. Podemos utilizar cualquier editor de texto,
+						pero con el bloc de notas nos sería suficiente.
+						<br><br>Para poder abrir nuestro documento en un navegador necesitamos guardarlo en formato <b>.html</b>, para ello vamos a <b>archivo-guardar_como</b> y en nombre ponemos:<b> nombre_archivo.html</b></p>
+		
 				
 					<dl>
-						<dt><h4>&lt;!DOCTYPE&gt;</h4>
+						<dt><b>&lt;!DOCTYPE&gt;</b><p>
 						<dd><p>Esta etiqueta indica el tipo de documento que vamos a utilizar y siempre será la primera etiqueta de nuestro documento.<br>
 						Es indiferente si se escribe en mayúscula o minúscula y esta etiqueta no necesita ser cerrada.</p>
 						
-						<dt><h4>&lt;html&gt;</h4>
+						<dt><b>&lt;html&gt;</b>
 						<dd><p>Con esta etiqueta se declara el principio de nuestro documento html. Siempre irá después de haber declarado el tipo de documento y tendrá que cerrarse al finalizar el documento HTML.<br><br>
 						A esta etiqueta habrá que añadirle el atributo <b>lang="es"</b>(en caso de que tu idioma sea español). <br>Es importante poner este atributo ya que con el declaras el idioma predeterminado de tu página.</p>
 						
-						<dt><h4>&lt;head&gt;</h4>
+						<dt><b>&lt;head&gt;</b>
 						<dd><p>La cabecera del documento. En esta sección podemos incluir diferentes tipos de datos, pero los básicos son:
 							<b>&lt;link&gt;</b>Con esta etiqueta podemos añadir enlaces a diferentes tipos de ficheros. Un ejemplo básico sería añadir un enlace a una página de estilos css. Quedaría así:
 							<br><b>&lt;link  rel="stylesheet" type="text/css" href="ruta_hoja_estilo.css"&gt;</b><br>
@@ -56,10 +57,10 @@
 								<li><b>&lt;meta name="description" content="Tutorial de HTML"&gt;</b>Descripción de nuestro documento.<br>
 							</ul>	
 							
-							<b>&lt;title&gt;</b>Aquí indicaremos el título de nuestra página.<b>&lt;/title&gt;</b>
+							<b>&lt;title&gt;</b>Aquí indicaremos el título de nuestra página.<b>&lt;/title&gt;</b><br>
 							
 							
-						<dt><h4>&lt;body&gt;</h4>
+						<dt><b>&lt;body&gt;</b>
 						<dd><p>El cuerpo de nuestro documento HTML. Todo lo que pongamos aquí es lo que se visualizará directamente en nuestra página web.</p>
 
 					</dl>
@@ -67,9 +68,10 @@
 		
 			
 				<section>
-				
+					<h2>Resultado final:</h2>
+					
 					<p>Y ya tendríamos nuestra estructura básica acabada. Quedaría algo así:</p>
-					<p align="center"><b>
+					<p id="estructura"><b>
 					
 					&lt;!DOCTYPE HTML&gt;<br><br>
 					&lt;html lang="es"&gt;<br><br>
@@ -83,7 +85,7 @@
 					
 					&lt;body&gt; <br> </b>Contenido de mi página<b> <br>
 					&lt;/body&gt;<br><br>
-					&lt/html&gt;<br></b></p>
+					&lt;/html&gt;<br></b></p>
 				
 				</section>
 		</article>

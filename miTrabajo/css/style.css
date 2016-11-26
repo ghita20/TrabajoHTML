@@ -10,6 +10,7 @@ img{
   display: block;
 	margin-left: auto;
     margin-right: auto;
+	align:middle;
 }
 
 footer{
@@ -20,4 +21,7 @@ footer{
 	left: 0;
 	padding: 1em;
 	background-color: #efefef;
+}
+#estructura{
+	text-align:center;
 }
