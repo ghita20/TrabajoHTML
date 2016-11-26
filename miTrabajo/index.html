@@ -1,0 +1,100 @@
+﻿<!doctype html>
+<html lang=es>
+	<head>
+		<meta charset=utf-8>
+		<meta name="description" content="Tutorial sobre HTML">
+		<meta name="keywords" content="HTML">
+		<meta name="author" content="Gheorghe Pop">
+		<link rel="stylesheet" type="text/css" href="css/style.css" >
+		<title>Tutorial de HTML5 - Gheorghe Pop</title>
+
+	</head>
+	
+	<body>
+		<header>
+			
+			<h1>Tutorial de HTML5 - Lenguaje de Marcas</h1>
+				<p>En este tutorial vamos a aprender como utilizar las etiquetas en HTML5.
+		
+		</header>	
+		
+		<nav>
+		  <a href="index.html">Estructura básica</a> |
+		  <a href="contenido.html">Estructura del contenido</a> |
+		  <a href="texto.html">Etiquetas semánticas - Texto</a> |
+		  <a href="listas.html">Listas</a> |
+		  <a href="tablas.html">Tablas</a> |
+		  <a href="otros.html">Otros</a>
+		</nav>
+		
+		<article>
+			<h1>Estructura básica</h1>
+			<br>El primer paso es crear un documento de texto vacío, y ahí pondremos nuestro código. Podemos utilizar cualquier editor de texto,
+				pero con el bloc de notas nos sería suficiente.
+				<br><br>Para poder abrir nuestro documento en un navegador necesitamos guardarlo en formato <b>.html</b>, para ello vamos a <b>archivo-guardar_como</b> y en nombre ponemos:<b> nombre_archivo.html</b></p>
+		
+				<section>
+				
+					<dl>
+						<dt><h4>&lt;!DOCTYPE&gt;</h4>
+						<dd><p>Esta etiqueta indica el tipo de documento que vamos a utilizar y siempre será la primera etiqueta de nuestro documento.<br>
+						Es indiferente si se escribe en mayúscula o minúscula y esta etiqueta no necesita ser cerrada.</p>
+						
+						<dt><h4>&lt;html&gt;</h4>
+						<dd><p>Con esta etiqueta se declara el principio de nuestro documento html. Siempre irá después de haber declarado el tipo de documento y tendrá que cerrarse al finalizar el documento HTML.<br><br>
+						A esta etiqueta habrá que añadirle el atributo <b>lang="es"</b>(en caso de que tu idioma sea español). <br>Es importante poner este atributo ya que con el declaras el idioma predeterminado de tu página.</p>
+						
+						<dt><h4>&lt;head&gt;</h4>
+						<dd><p>La cabecera del documento. En esta sección podemos incluir diferentes tipos de datos, pero los básicos son:
+							<b>&lt;link&gt;</b>Con esta etiqueta podemos añadir enlaces a diferentes tipos de ficheros. Un ejemplo básico sería añadir un enlace a una página de estilos css. Quedaría así:
+							<br><b>&lt;link  rel="stylesheet" type="text/css" href="ruta_hoja_estilo.css"&gt;</b><br>
+							<br><b>&lt;meta&gt;</b>Esta etiqueta la utilizaremos para añadir información más detallada sobre nuestro documento. Por ejemplo:<br>
+							<ul>
+								<li><b>&lt;meta charset="utf-8"&gt;</b>Indicamos que nuestro documento está codificado con el estándar UTF-8.
+								<li><b>&lt;meta name="author" content="Pepe"&gt;</b>Nombre del autor del documento.<br>
+								<li><b>&lt;meta name="keywords" content="Tutorial,HTML,primer,documento"&gt;</b>Palabras relevantes de nuestro documento. Los buscadores pueden utilizar estas palabras para catalogar el contenido de nuestra página.<br>
+								<li><b>&lt;meta name="description" content="Tutorial de HTML"&gt;</b>Descripción de nuestro documento.<br>
+							</ul>	
+							
+							<b>&lt;title&gt;</b>Aquí indicaremos el título de nuestra página.<b>&lt;/title&gt;</b>
+							
+							
+						<dt><h4>&lt;body&gt;</h4>
+						<dd><p>El cuerpo de nuestro documento HTML. Todo lo que pongamos aquí es lo que se visualizará directamente en nuestra página web.</p>
+
+					</dl>
+				</section>
+		
+			
+				<section>
+				
+					<p>Y ya tendríamos nuestra estructura básica acabada. Quedaría algo así:</p>
+					<p align="center"><b>
+					
+					&lt;!DOCTYPE HTML&gt;<br><br>
+					&lt;html lang="es"&gt;<br><br>
+					&lt;head&gt; <br><br>
+					&lt;meta charset=</b>"utf-8"<b>&gt;<br>
+					&lt;meta name=</b>"author"<b> content=</b>"Pepe"<b>&gt;<br>
+					&lt;meta name=</b>"description"<b> content=</b>"Mi primera página html."<b>&gt;<br>
+					&lt;title&gt; </b>Mi primera página.<b> &lt;/title&gt;<br>
+					&lt;link rel=</b>"stylesheet"<b> type=</b>"text/css"<b> href=</b>"ruta_mi_estilo.css"<b>&gt; 
+					<br><br>&lt;/head&gt;<br><br>
+					
+					&lt;body&gt; <br> </b>Contenido de mi página<b> <br>
+					&lt;/body&gt;<br><br>
+					&lt/html&gt;<br></b></p>
+				
+				</section>
+		</article>
+		
+		<footer>
+			
+			<p>Realizado por: Gheorghe Pop</p>
+			<p><a href="https://github.com/ghita20/TrabajoHTML/tree/gh-pages/miTrabajo">
+			Trabajo HTML5 - Lenguajes de Marcas</a>.</p>
+		
+		</footer>
+			
+	</body>
+</html>

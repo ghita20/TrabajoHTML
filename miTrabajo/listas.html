@@ -1,0 +1,112 @@
+﻿<!doctype html>
+<html lang=es>
+	<head>
+		<meta charset=utf-8>
+		<meta name="description" content="Tutorial sobre HTML">
+		<meta name="keywords" content="HTML">
+		<meta name="author" content="Gheorghe Pop">
+		<link rel="stylesheet" type="text/css" href="css/style.css" >
+		<title>Tutorial de HTML5 - Tipos de Listas</title>
+
+	</head>
+	
+	<body>
+		<header>
+			<h1>LISTAS</h1>
+				<p>Tipos de listas que podemos encontrar en HTML5.</p>
+		</header>	
+		
+		<nav>
+		  <a href="index.html">Estructura básica</a> |
+		  <a href="contenido.html">Estructura del contenido</a> |
+		  <a href="texto.html">Etiquetas semánticas - Texto</a> |
+		  <a href="listas.html">Listas</a> |
+		  <a href="tablas.html">Tablas</a> |
+		  <a href="otros.html">Otros</a>
+		</nav>
+		
+		<article>
+			<h1>Tipos de listas</h1>
+				<section>
+					
+					
+					<dl>
+						<dt><h4>Listas Desordenadas | &lt;ul&gt;</h4>
+							<dd><p>Crea una lista desordenada. Para crear un elemento en la lista utilizaremos la etiqueta <b>&lt;li&gt;</b></p>
+						
+						<dt><h4>Listas Ordenadas | &lt;ol&gt;</h4>
+							<dd><p>Crea una lista ordenada. Para crear elementos se utiliza la etiqueta <b>&lt;li&gt;</b>.
+							<br>La lista ordenada tiene un atributo que puede cambiar el modo de numeración de la lista. Este atributo se llama <b>type</b> y puede tener como valor: <br></p>
+								
+								<ul>
+									<li> <dt><b>type="1"</b>
+											<dd>Enumera por números.<small>(por defecto)</small></dd>
+									
+									<li> <dt><b>type="A"</b>
+											<dd>Enumera empezando por la A mayúscula.</dd>
+									
+									<li> <dt><b>type="a"</b>
+											<dd>Enumera empezando por la a minúscula.</dd>
+											
+									<li> <dt><b>type="I"</b>
+											<dd>Enumera con número Romanos en mayúscula.</dd>
+									
+									<li> <dt><b>type="i"</b>
+											<dd>Enumera con número Romanos en minúscula.</dd>
+							</dd>
+							
+						<dt><h4>Listas de definición | &lt;dl&gt;</h4>
+							<dd><p>Crea una lista con términos y sus definiciones. Para crear un término utilizaremos la etiqueta <b>&lt;dt&gt;</b> y para crear una definición del término <b>&lt;dd&gt;</b>. </p>
+						
+					</dl>
+				
+				<em>Cada etiqueta principal de las listas debe ser cerrada siempre pero las etiquetas de dentro no es necesario cerrarlas si solamente contienen una etiqueta aunque es recomendable siempre cerrarlas.</em>
+				
+				</section>
+				
+				<section>
+				<h2><i>Ejemplos:</i></h2>
+				<ul>
+					<li><b>Lista desordenada:</b>
+						<ul>Mi lista
+							<li>Elemento 1</li>
+							<li>Elemento 2</li>
+							<li>Elemento 3</li>
+						</ul>
+					</li>
+					
+					<li><b>Lista ordenada con type="A"(ordenación alfabetica en mayúscula):</b>
+						<ol type="A">Mi lista
+							<li>Elemento 1</li>
+							<li>Elemento 2</li>
+							<li>Elemento 3</li>
+						</ol>
+					</li>
+					
+					<li><b>Lista de definición:</b>
+						<dl>Mi lista
+							<dt>Elemento 1
+								<dd>Descripción del elemento 1</dd>
+							<dt>Elemento 2
+								<dd>Descripción del elemento 1
+							<dt>Elemento 3
+								<dd>Descripción del elemento 1
+						</dl>
+					</li>
+				
+				</section>
+			
+			
+				
+		
+		</article>
+		
+		<footer>
+  <p>Realizado por: Gheorghe Pop</p>
+  <p><a href="https://github.com/ghita20/TrabajoHTML/tree/gh-pages/miTrabajo">
+   Trabajo HTML5 - Lenguajes de Marcas</a>.</p>
+</footer>
+				
+		
+	</body>
+</html>
