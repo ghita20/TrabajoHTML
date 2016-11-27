@@ -22,12 +22,14 @@
 		  <a href="texto.html">Etiquetas semánticas - Texto</a>
 		  <a href="listas.html">Listas</a>
 		  <a href="tablas.html">Tablas</a>
-		  <a href="otros.html">Otros</a>
 		</nav>
 		
 		<article>
 			
-				<section><h2>Tipos de texto</h2>
+				<section>	<h2>Tipos de texto</h2>
+							<p>Una vez que tengamos nuestro documento estructurado de manera correcta, es el momento de empezar a añadir contenido.
+							<br>
+							<p>En primer lugar vamos a ver los tipos de texto que podemos representar.
 				
 					<dl>
 						<dt><b>Títulos | &lt;h1&gt;</b>
@@ -38,7 +40,13 @@
 						
 						<dt><b>Hiperenlace | &lt;a&gt;</b>
 							<dd><p>Representa un texto con <i>hiperenlace</i>, al pulsar sobre el texto con <i>hiperenlace</i> nos redireccionará a la dirección especificada.
-							<br>La forma correcta de representarlo es: <b>&lt;a href="enlace"&gt;</b>Texto con hiperenlace<b>&lt;/a&gt;</b></p>
+								<br>La forma correcta de representarlo es: <b>&lt;a href="enlace"&gt;</b>Texto con hiperenlace<b>&lt;/a&gt;</b></p>
+								<br>La eitqueta de hiperenlace permite tener varios atributos, entre los más interesantes tenemos:
+								<br><br><b>download</b> que permite descargar el contenido del enlace al que dirije el enlace.
+								<br><b>target="_blank"</b> abre el enlace en una nueva página en blanco.
+							</dd>
+							
+							<br>
 						
 						<dt><b>Enfatizado | &lt;em&gt;</b>
 							<dd><p>Representa un párrafo de texto con énfasis(recalcado).</p>
@@ -83,7 +91,15 @@
 						
 						<dt><b>Línea horizontal | &lt;hr&gt;</b>
 							<dd><p>Crea una línea horizontal que separa el contenido.</p>
-					
+						
+						<dt><b>Insertar imágenes | &lt;img&gt;</b>
+							<dd><p>Inserta una imagen.(formatos permitidos: .png, .gif, .jpg, .svg, .apng, .pdf)
+								<br>Los atributos necesarios para insertar una imagen son:</p>
+								<br>
+								<b>src="url_imagen.formato"</b> el enlace (source) de nuestra imagen.
+								<br>
+								<b>alt="Mi imagen de prueba"</b> el título de nuestra imagen. 
+								<br><small>(Es muy recomendable poner este atributo ya que ayuda a personas con discapacidad a conocer que tipo de contenido es y ayuda a los buscadores a catalogar nuestras imágenes.)</small>
 					</dl>
 				
 				<em>Estas etiquetas no necesitan ser cerradas.</em>

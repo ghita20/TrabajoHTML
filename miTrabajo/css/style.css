@@ -33,6 +33,13 @@ nav a{
     	text-decoration: none;
 }
 
+nav a:hover{
+
+    background-color: #4a4a4a;
+    color: white;
+    	
+}
+
 article{
 	margin-left:15%;
 	margin-right:15%;
