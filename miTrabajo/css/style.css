@@ -1,16 +1,15 @@
 html {
 	font-family: sans-serif;
 	background-image: url(bg.png);
-    background-position: left top;
-    background-repeat: repeat;
+    	background-position: left top;
+    	background-repeat: repeat;
 }
 body{
 	position: relative;
-    float: left;
-    width: 100%;
-	
-    margin-top: 4px;
-    padding-top: 10px;
+    	float: left;
+    	width: 100%;
+    	margin-top: 4px;
+    	padding-top: 10px;
 }
 header{
 	margin-left:15%;
@@ -24,16 +23,15 @@ nav{
 }
 nav a{
 	text-transform: uppercase;
-	
-    height: 13px;
-    position: relative;
+    	height: 13px;
+    	position: relative;
 	top: 12px;
-    padding: 9px;
+    	padding: 9px;
 	display: inline-table;
-    background-color: black;
-    color: white;
-    text-align: center;
-    text-decoration: none;
+    	background-color: black;
+    	color: white;
+    	text-align: center;
+    	text-decoration: none;
 }
 
 article{
@@ -43,9 +41,9 @@ article{
 
 
 img{
-  display: block;
+ 	display: block;
 	margin-left: auto;
-    margin-right: auto;
+    	margin-right: auto;
 	align:middle;
 }
 
@@ -53,18 +51,17 @@ footer{
 	position:absolute;
 	margin-top: 1%;
 	right: 0;
-	bottom: 10;
 	left: 0;
 	padding: 1em;
 	background-color: #2d2b2a;
 }
 footer p{
 	    
-    color: white;
+    	color: white;
 }
 footer a{
 	    
-    color: white;
+    	color: white;
 }
 #estructura{
 	text-align:center;
