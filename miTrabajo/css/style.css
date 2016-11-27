@@ -1,14 +1,14 @@
 html {
-  font-family: sans-serif;
-  background-image: url(bg.png);
+	font-family: sans-serif;
+	background-image: url(bg.png);
     background-position: left top;
     background-repeat: repeat;
 }
 body{
-	    position: relative;
+	position: relative;
     float: left;
     width: 100%;
-
+	
     margin-top: 4px;
     padding-top: 10px;
 }
@@ -20,6 +20,20 @@ nav{
 	text-align:center;
 	margin-left:15%;
 	margin-right:15%;
+	padding-bottom:20px;
+}
+nav a{
+	text-transform: uppercase;
+	
+    height: 13px;
+    position: relative;
+	top: 12px;
+    padding: 9px;
+	display: inline-table;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 article{
@@ -42,7 +56,15 @@ footer{
 	bottom: 10;
 	left: 0;
 	padding: 1em;
-	background-color: #efefef;
+	background-color: #2d2b2a;
+}
+footer p{
+	    
+    color: white;
+}
+footer a{
+	    
+    color: white;
 }
 #estructura{
 	text-align:center;
