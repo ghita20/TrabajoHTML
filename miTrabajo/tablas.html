@@ -47,15 +47,16 @@
 					
 					<p>Vamos a ver un ejemplo de una celda que ocupa 3 filas, para ello utilizaremos la opción <b>rowspan</b>:</p>
 				
-						<table>
+						<table >
 							<tr>
-								<td rowspan="3">Celda 1
 								<td>Celda
+								<td rowspan="3">Celda 1
 								<td>Celda
 							</tr>
 							
 							<tr>
 								<td>Celda
+								
 								<td>Celda
 							</tr>
 							
@@ -64,6 +65,27 @@
 								<td>Celda
 							</tr>
 						</table>
+						
+					<p>El código quedaría tal que así:
+						<br><b>	&lt;table &gt;
+						<br>&emsp;	&lt;tr&gt;
+						<br>&emsp;&emsp;		&lt;td&gt;Celda
+						<br>&emsp;&emsp;		&lt;td rowspan="3"&gt;Celda 1
+						<br>&emsp;&emsp;		&lt;td&gt;Celda
+						<br>&emsp;	&lt;/tr&gt;
+						<br>	
+						<br>&emsp;	&lt;tr&gt;
+						<br>&emsp;&emsp;		&lt;td&gt;Celda
+						<br>		
+						<br>&emsp;&emsp;		&lt;td&gt;Celda
+						<br>&emsp;	&lt;/tr&gt;
+						<br>	
+						<br>&emsp;	&lt;tr&gt;
+						<br>&emsp;&emsp;		&lt;td&gt;Celda
+						<br>&emsp;&emsp;		&lt;td&gt;Celda
+						<br>&emsp;&emsp;	&lt;/tr&gt;
+						<br>	&lt;/table&gt;</b>
+						</p>
 					
 				</section>
 				
